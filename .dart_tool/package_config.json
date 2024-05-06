@@ -80,6 +80,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_staggered_grid_view",
+      "rootUri": "file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/flutter_staggered_grid_view-0.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/junochenkwanlok/Development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -90,6 +96,12 @@
       "rootUri": "file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/gradient_borders-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "ios_search_appbar",
+      "rootUri": "file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/ios_search_appbar-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "leak_tracker",
@@ -212,7 +224,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-04-29T07:24:57.379855Z",
+  "generated": "2024-05-02T08:06:14.569535Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

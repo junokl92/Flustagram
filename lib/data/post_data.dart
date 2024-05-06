@@ -1,6 +1,12 @@
-// ignore_for_file: unnecessary_this
+// ignore_for_file: unnecessary_this, prefer_const_constructors
 
+import 'dart:math';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_insta/data/user_data.dart';
+import 'package:flutter_insta/supports/constants.dart';
+import 'package:lorem_gen/lorem_gen.dart';
+import 'package:random_name_generator/random_name_generator.dart';
 
 class PostData {
   String id;

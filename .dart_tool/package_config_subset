@@ -46,10 +46,18 @@ flutter_lints
 3.1
 file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/flutter_lints-3.0.2/
 file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/flutter_lints-3.0.2/lib/
+flutter_staggered_grid_view
+2.12
+file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/flutter_staggered_grid_view-0.7.0/
+file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/flutter_staggered_grid_view-0.7.0/lib/
 gradient_borders
 2.18
 file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/gradient_borders-1.0.0/
 file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/gradient_borders-1.0.0/lib/
+ios_search_appbar
+3.0
+file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/ios_search_appbar-1.1.1/
+file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/ios_search_appbar-1.1.1/lib/
 leak_tracker
 3.1
 file:///Users/junochenkwanlok/.pub-cache/hosted/pub.dev/leak_tracker-10.0.0/
@@ -136,6 +144,6 @@ file:///Users/junochenkwanlok/Development/flutter/packages/flutter_test/
 file:///Users/junochenkwanlok/Development/flutter/packages/flutter_test/lib/
 flutter_insta
 3.3
-file:///Users/junochenkwanlok/Documents/sample/Flutter/flutter_insta/
-file:///Users/junochenkwanlok/Documents/sample/Flutter/flutter_insta/lib/
+file:///Users/junochenkwanlok/Documents/GitHub/Flustagram/
+file:///Users/junochenkwanlok/Documents/GitHub/Flustagram/lib/
 2

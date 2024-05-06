@@ -5,7 +5,6 @@ import 'dart:math';
 import 'package:expandable_richtext/expandable_rich_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_insta/component/User/user_profile_view.dart';
 import 'package:flutter_insta/data/comment_data.dart';
 import 'package:flutter_insta/data/user_data.dart';

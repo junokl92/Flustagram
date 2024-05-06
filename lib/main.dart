@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_insta/create_post_page.dart';
 import 'package:flutter_insta/home_page.dart';
 import 'package:flutter_insta/profile_page.dart';
+import 'package:flutter_insta/reel_page.dart';
 import 'package:flutter_insta/search_page.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -18,6 +19,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        hoverColor: Colors.transparent,
         colorScheme:
             ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 255, 140, 179)),
         useMaterial3: true,
@@ -51,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomePage(),
     SearchPage(),
     CreatePostPage(),
+    ReelPage(),
     ProfilePage()
   ];
 
@@ -65,13 +70,16 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         body: pages[currentIndex],
         bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.pink,
           unselectedItemColor: Colors.black,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.add_box_rounded), label: "Post"),
+                icon: Icon(Icons.add_box_outlined), label: "Post"),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.movie_creation_outlined), label: "Reel"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.person_rounded), label: "Profile")
           ],
